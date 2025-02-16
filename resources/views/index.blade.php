@@ -17,7 +17,7 @@
                     
                     <div class="card mb-3" style="width: 18rem;">
                         @if (!$product->img)
-                        <img src="https://picsum.photos/200" class="card-img-top" alt="immagine casuale">                            
+                        <img src="https://picsum.photos/200" class="card-img-top" alt="immagine casuale">
                         @else
                         <img src="{{Storage::url($product['img'])}}" class="card-img-top" alt="immagine form">
                         @endif
